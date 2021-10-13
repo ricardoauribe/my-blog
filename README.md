@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# My Blog
+
+## Dependencies
+
+to make this work for IE we add the following dependency
+
+```
+npm install --save whatwg-fetch
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -4,8 +4,7 @@ import NotFoundPage from './NotFoundPage';
 import articleContent from './article-content'
 
 
-const AboutPage = ({ match }) => {
-  
+const ArticlePage = ({ match }) => { 
   const name = match.params.name;
   const article = articleContent.find(article => article.name == name);
 
@@ -29,4 +28,4 @@ const AboutPage = ({ match }) => {
   )
 };
 
-export default AboutPage;
+export default ArticlePage;
